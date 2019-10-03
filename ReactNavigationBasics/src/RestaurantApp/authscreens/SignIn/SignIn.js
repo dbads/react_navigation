@@ -5,13 +5,29 @@ import styles from './styles';
 class SignIn extends Component{
     render(){
         return(
-            <View style={{flex:1, flexDirection:"row", backgroundColor:'#F5F7FA', justifyContent:'center', alignItems:"center"}}>
+            <View style={{flex:1, backgroundColor:'#D8DCDE', justifyContent:'center', alignItems:"center"}}>
                 <Text style={styles.restaurantHeading}> My Restaurant </Text>
-                {/* <View style={{flex:1, justifyContent:"center",}}> */}
-                {/* </View> */}
+                
                 <TextInput
                     style={styles.email}
-                    placeholder='Email Address'
+                    placeholder='Username'
+                />
+                <TextInput
+                    style={styles.email}
+                    placeholder='Password'
+                />
+
+                <Text style={styles.forgotPassword}>Forgot Password</Text>
+
+                <Button
+                    style={[styles.signInButton,]}
+                    title='SignIn efrtre '
+                />
+                <View style={{flex:1}}/>
+                <Button
+                    style={styles.signInButton}
+                    title='SignUp'
+                    onPress={()=>this.props.navigation.navigate('SignUp')}
                 />
             </View>
         )

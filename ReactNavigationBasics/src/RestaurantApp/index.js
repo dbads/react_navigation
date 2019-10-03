@@ -1,4 +1,5 @@
-import SignIn from './authscreens/SignIn'
+import AuthNavigatorComponent from './authscreens/AuthNavigator'
 
-const App = SignIn;
+const App = AuthNavigatorComponent;
+
 export default App;
