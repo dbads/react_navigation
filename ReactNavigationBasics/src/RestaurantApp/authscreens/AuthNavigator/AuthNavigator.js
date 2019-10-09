@@ -42,4 +42,4 @@ class AuthNavigatorComponent extends Component{
     }
 }
 
-export default AuthNavigatorComponent;
+export default AuthNavigator;
