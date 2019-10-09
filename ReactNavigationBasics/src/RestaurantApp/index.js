@@ -1,5 +1,5 @@
-import AuthNavigatorComponent from './authscreens/AuthNavigator'
+import InitialNavigatorComponent from './mainscreens/InitialNavigator/index'
 
-const App = AuthNavigatorComponent;
+const App = InitialNavigatorComponent;
 
 export default App;

@@ -1,3 +1,3 @@
-import AuthNavigatorComponent from "./AuthNavigator"
+import AuthNavigator from "./AuthNavigator"
 
-export default AuthNavigatorComponent;
+export default AuthNavigator;
