@@ -24,6 +24,7 @@ class SignIn extends Component{
             // this.props.navigation.navigate('SignUp')
         }
     }
+    
     render(){
         return(
             <View style={{flex:1, backgroundColor:'#D8DCDE', justifyContent:'center', alignItems:"center"}}>

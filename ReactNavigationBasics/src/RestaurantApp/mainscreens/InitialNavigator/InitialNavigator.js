@@ -3,7 +3,6 @@ import { Button, View, Image, Text } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createSwitchNavigator } from 'react-navigation';
 
-
 import AuthNavigator from '../../authscreens/AuthNavigator/index'
 import MainAppNavigator from '../../mainscreens/MainAppNavigator/index'
 
